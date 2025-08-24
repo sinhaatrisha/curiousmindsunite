@@ -2,21 +2,28 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   line-height: 1.6;
+  background: #fdfdfd;
+  color: #333;
 }
 
 header {
   background: #004aad;
   color: white;
   padding: 1rem;
+  text-align: center;
 }
 
 header h1 {
   margin: 0;
 }
 
+nav {
+  margin-top: 0.5rem;
+}
+
 nav a {
   color: white;
-  margin-right: 1rem;
+  margin: 0 0.75rem;
   text-decoration: none;
 }
 
@@ -28,12 +35,37 @@ main {
   padding: 2rem;
 }
 
-section {
-  margin-bottom: 3rem;
+h2 {
+  color: #004aad;
+}
+
+.img-placeholder {
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+.team-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  flex: 1 1 200px;
+  text-align: center;
 }
 
 footer {
   background: #f4f4f4;
   padding: 1rem;
   text-align: center;
+  margin-top: 2rem;
 }
